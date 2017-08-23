@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.timekeeper.HomeActivity"
+    android:background="#E0E0E0">
+    <RelativeLayout
+        android:id="@+id/UI_lay_btnWrap"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/checkin"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/UI_TV_HomeCheckIn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textSize="16dp"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/UI_TV_timer"
+        android:text="00:00:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/UI_lay_btnWrap"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:id="@+id/UI_btnwrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:layout_centerInParent="true"
+       >
+    <Button
+        android:id="@+id/UI_BTN_checkIn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_background_green"
+        android:text="Check-In"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:id="@+id/UI_BTN_checkOut"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Check-Out"
+        android:background="@drawable/button_background_red"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:background="#ffffff"
+
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/UI_BTN_status"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/view_history"
+            android:textSize="18dp"
+            android:gravity="left|center"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:layout_alignParentBottom="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

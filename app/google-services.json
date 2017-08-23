@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "190574093627",
+    "firebase_url": "https://timerapp-cef52.firebaseio.com",
+    "project_id": "timerapp-cef52",
+    "storage_bucket": "timerapp-cef52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190574093627:android:b1dbc61dc444cbe6",
+        "android_client_info": {
+          "package_name": "com.example.user.timekeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190574093627-2sh1csj50mhmrdd6chdqo8nn62h9r8mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.timekeeper",
+            "certificate_hash": "77416a667da4b2303e16f1867a9cca159068cada"
+          }
+        },
+        {
+          "client_id": "190574093627-uvlvag3nsqbat1qr84cnii2b5hk76lja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApijThZpp59aJWEV83VYj-uNChMUliDTA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190574093627-uvlvag3nsqbat1qr84cnii2b5hk76lja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

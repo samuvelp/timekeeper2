@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Time Keeper</string>
+    <string name="next">next</string>
+    <string name="enter_user_id">enter user id</string>
+    <string name="check_in">Check in</string>
+    <string name="check_out">Check out</string>
+    <string name="status">status</string>
+    <string name="check_in_time">Check In</string>
+    <string name="check_out_time">Check Out</string>
+    <string name="location">Location</string>
+    <string name="event">Event</string>
+    <string name="Time">Time</string>
+    <string name="location_">Location</string>
+    <string name="checkin">Check In</string>
+    <string name="view_history"><![CDATA[View History >]]></string>
+</resources>

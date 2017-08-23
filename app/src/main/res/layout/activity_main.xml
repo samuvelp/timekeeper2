@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.timekeeper.MainActivity">
+
+    <EditText
+        android:id="@+id/UI_ET_userId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:hint="@string/enter_user_id"/>
+    <Button
+        android:id="@+id/UI_BTN_next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/UI_ET_userId"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:text="@string/next"/>
+
+</RelativeLayout>
